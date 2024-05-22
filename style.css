@@ -32,144 +32,15 @@ section {
   padding: 2%;
 }
 
-.vehicles {
-  margin-top: 150px;
-}
-
-.services-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, auto));
-  gap: 1rem;
-  margin-top: -5em;
-}
-
-.services-container .box {
-  padding: 30px;
-  border-radius: 1rem;
-  box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
-}
-
-.services-container .box .box-img {
-  width: 100%;
-  height: 200px;
-}
-
-.services-container .box .box-img img {
-  width: 100%;
-  height: 100%;
-  border-radius: 1rem;
-  object-fit: cover;
-  object-position: center;
-}
-
-.services-container .box h3 {
-  font-weight: 500;
-}
-
-.services-container .box .btn {
-  display: flex;
-  justify-content: center;
-  background: var(--scroll-color);
-  color: #fff;
-  padding: 10px;
-  border-radius: 0.5rem;
-}
-
-.services-container .box .btn:hover {
-  background: #474fa0;
-}
 
 .card {
   margin-top: 20rem;
   margin-left: 1rem;
 }
 
-.logincontainer {
-  margin-top: 20rem;
-  margin-left: 1rem;
-}
 
-.formcontainer {
-  position: absolute;
-  right: 100px;
-}
 
-.form-container .rent-container {
-  padding: 30px;
-  border-radius: 1rem;
-  box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.5);
-  /* margin-top: 25px; */
-}
 
-.form-container .rent-container .btn {
-  display: flex;
-  justify-content: center;
-  background: var(--scroll-color);
-  color: #fff;
-  margin-top: 1rem;
-  width: 300px;
-  padding: 10px;
-  border-radius: 0.5rem;
-}
-
-.form-container .rent-container .btn:hover {
-  background: #474fa0;
-}
-
-.resreview-container .info-container {
-  padding: 30px;
-  border-radius: 1rem;
-  box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.5);
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.resreview-container .info-container .btn {
-  display: flex;
-  justify-content: center;
-  background: var(--main-color);
-  color: #fff;
-  margin-top: 1rem;
-  width: 300px;
-  padding: 10px;
-  border-radius: 0.5rem;
-}
-
-.resreview-container .info-container .btn:hover {
-  background: #474fa0;
-}
-.vehicle-sec > div {
-  padding: 1em, 0;
-}
-
-select,
-input {
-  border: 1px solid #444;
-  border-radius: 5px;
-}
-
-.vehicle-images > img {
-  border-radius: 10px;
-}
-
-/* fgfdggfd */
-
-.work-sans {
-  font-family: "Work Sans", sans-serif;
-}
-
-#menu-toggle:checked + #menu {
-  display: block;
-}
-
-.hover\:grow {
-  transition: all 0.3s;
-  transform: scale(1);
-}
-
-.hover\:grow:hover {
-  transform: scale(1.02);
-}
 
 /* .bgground {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1050%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 240%2c 240%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c290.4C55.645%2c285.705%2c108.859%2c272.392%2c157.954%2c245.782C210.114%2c217.511%2c261.484%2c184.385%2c290.782%2c132.795C321.432%2c78.825%2c327.475%2c15.385%2c323.989%2c-46.583C320.262%2c-112.848%2c315.381%2c-185.517%2c270.144%2c-234.082C225.246%2c-282.283%2c151.242%2c-281.271%2c88.052%2c-299.877C24.806%2c-318.5%2c-36.218%2c-356.552%2c-100.805%2c-343.309C-167.154%2c-329.705%2c-214.87%2c-275.542%2c-263.007%2c-227.897C-314.774%2c-176.66%2c-381.736%2c-128.459%2c-390.883%2c-56.2C-400.012%2c15.918%2c-349.406%2c80.532%2c-309.762%2c141.464C-274.837%2c195.143%2c-233.783%2c246.216%2c-176.067%2c273.966C-121.846%2c300.036%2c-59.95%2c295.459%2c0%2c290.4' fill='%23ff8383'%3e%3c/path%3e%3cpath d='M1440 1058.568C1546.468 1051.151 1667.601 1111.155 1753.51 1047.83 1839.728 984.277 1812.7930000000001 847.999 1857.63 750.725 1902.6979999999999 652.951 2010.261 584.575 2016.5810000000001 477.1 2023.229 364.038 1962.487 256.998 1891.867 168.45499999999998 1819.371 77.56 1727.659-10.085000000000036 1612.94-28.980000000000018 1501.512-47.33299999999997 1406.556 46.263000000000034 1296.226 70.351 1174.0140000000001 97.03300000000002 1031.9560000000001 44.65999999999997 931.883 119.714 828.535 197.224 789.039 335.89599999999996 771.507 463.885 754.046 591.357 774.543 722.629 833.639 836.9159999999999 891.115 948.0699999999999 979.572 1050.599 1097.101 1093.5610000000001 1207.241 1133.8220000000001 1323.016 1066.718 1440 1058.568' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1050'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
